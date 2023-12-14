@@ -48,6 +48,6 @@ void push(stack_t **head, unsigned int line_number);
 char *getline_a(char *file);
 void free_list(stack_t *head);
 char *string_clean(char *getline_string);
-void (*get_func(char *token, int flag))(stack_t **head, unsigned int line_number);
+void (*get_function(char *token, int flag))(stack_t **head, unsigned int line_number);
 
 #endif
