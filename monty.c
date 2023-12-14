@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
 	token = strtok(getline_string, " ");
 	while (token)
 	{
-		obj.f = get_func(token, flag);
+		obj.f = get_function(token, flag);
 		if (obj.f == NULL)
 		{
 			fprintf(stderr, "L%u: unknown instruction %s\n", line_number, token);
