@@ -7,9 +7,6 @@
  *
  * This function pushes a new node with the specified integer value onto the top
  * of the stack pointed to by 'head'.
- *
- * @head: Pointer to the head of the stack.
- * @line_number: Line number of the command in the input file.
  */
 void push(stack_t **head, unsigned int line_number)
 {
